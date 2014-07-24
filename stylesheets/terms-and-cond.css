@@ -1,0 +1,200 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ #page-wrapper {
+   position: relative;
+   width: 1200px;
+   /* centers the document */
+   margin: 0 auto;
+   /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+   overflow: hidden;
+   height: 2500px;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ /* Set floating dom-heading margins to 0 */
+ [class*="dom-heading"] {
+   margin: 0;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 1200px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .image {
+   width: 133px;
+   height: 77px;
+   position: absolute;
+   top: 8px;
+   left: 129px;
+ }
+ #absolute-wrapper .dom-heading {
+   font-family: Arial;
+   font-size: 28.18181800842285px;
+   position: absolute;
+ }
+ #absolute-wrapper .dom-heading.dom-heading-1 {
+   color: #f5350a;
+   width: 300px;
+   height: 41px;
+   top: 29px;
+   left: 268px;
+ }
+ #absolute-wrapper .icon.icon-comments {
+   color: #5bec09;
+   font-size: 21px;
+   height: 21px;
+   width: 31px;
+   position: absolute;
+   top: 58px;
+   left: 967px;
+ }
+ #absolute-wrapper .paragraph {
+   position: absolute;
+ }
+ #absolute-wrapper .paragraph.paragraph-1 {
+   width: 39px;
+   height: 24px;
+   top: 58px;
+   left: 994px;
+ }
+ #absolute-wrapper select {
+   position: absolute;
+ }
+ #absolute-wrapper select.select-1 {
+   width: 60px;
+   height: 27px;
+   top: 55px;
+   left: 1028px;
+ }
+ #absolute-wrapper .paragraph.paragraph-2 {
+   width: 300px;
+   height: 22px;
+   top: 62px;
+   left: 270px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse {
+   width: 962px;
+   height: 42px;
+   position: absolute;
+   top: 86px;
+   left: 128px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .navbar-inner {
+   background: #f66403;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   -o-box-shadow: none;
+   box-shadow: none;
+   border: 1px solid #f66403;
+   height: 42px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a.a-1 {
+   text-shadow: 0px 1px 2px #2b2a2a;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a {
+   color: #f3dbcf;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a.a-2 {
+   text-shadow: 0px 1px 2px #2b2a2a, 0px -1px 0px rgba(43, 42, 42, 0.239216);
+ }
+ #absolute-wrapper .icon.icon-cog {
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   font-size: 27px;
+   height: 28px;
+   width: 27px;
+   position: absolute;
+   top: 95px;
+   left: 1051px;
+ }
+ #absolute-wrapper .icon.icon-info-sign {
+   font-size: 25px;
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   height: 25px;
+   width: 28px;
+   position: absolute;
+   top: 96px;
+   left: 1019px;
+ }
+ #absolute-wrapper .icon.icon-envelope-alt {
+   font-size: 21px;
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   height: 21px;
+   width: 38px;
+   position: absolute;
+   top: 98px;
+   left: 978px;
+ }
+ #absolute-wrapper .icon.icon-user {
+   color: #f3dbcf;
+   font-size: 26px;
+   text-shadow: 0px 1px 2px #000000;
+   height: 26px;
+   width: 32px;
+   position: absolute;
+   top: 96px;
+   left: 949px;
+ }
+ #absolute-wrapper .icon.icon-home {
+   color: #f3dbcf;
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 101px;
+   left: 132px;
+ }
+ #absolute-wrapper select.select-2 {
+   width: 132px;
+   height: 34px;
+   top: 139px;
+   left: 924px;
+ }
+ #absolute-wrapper textarea {
+   width: 220.18181824684143px;
+   height: 23.18181824684143px;
+   position: absolute;
+   top: 139px;
+   left: 682px;
+ }
+ #absolute-wrapper .icon.icon-search {
+   font-size: 26px;
+   color: #080807;
+   height: 26px;
+   width: 30px;
+   position: absolute;
+   top: 142px;
+   left: 1059px;
+ }
+ #absolute-wrapper .well {
+   width: 915.1818182468414px;
+   height: 1859.1818182468414px;
+   position: absolute;
+   top: 204px;
+   left: 132px;
+ }
+ #absolute-wrapper .dom-heading.dom-heading-2 {
+   width: 421px;
+   height: 42px;
+   top: 224px;
+   left: 180px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3 {
+   width: 833px;
+   height: 129px;
+   top: 288px;
+   left: 183px;
+ }

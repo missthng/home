@@ -1,0 +1,223 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ #page-wrapper {
+   position: relative;
+   width: 1200px;
+   /* centers the document */
+   margin: 0 auto;
+   /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+   overflow: hidden;
+   height: 1000px;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ /* Set floating dom-heading margins to 0 */
+ [class*="dom-heading"] {
+   margin: 0;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 1200px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .dom-link {
+   height: 25px;
+   position: absolute;
+ }
+ #absolute-wrapper .dom-link.dom-link-1 {
+   width: 329px;
+   top: 23px;
+   left: 706px;
+ }
+ #absolute-wrapper .icon.icon-plus {
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 26px;
+   left: 689px;
+ }
+ #absolute-wrapper .image {
+   position: absolute;
+   left: 114px;
+ }
+ #absolute-wrapper .image.image-1 {
+   width: 133px;
+   height: 77px;
+   top: 27px;
+ }
+ #absolute-wrapper .dom-heading {
+   color: #f5350a;
+   font-family: Arial;
+   width: 300px;
+   height: 43px;
+   font-size: 28.18181800842285px;
+   position: absolute;
+   top: 50px;
+   left: 251px;
+ }
+ #absolute-wrapper select {
+   position: absolute;
+ }
+ #absolute-wrapper select.select-1 {
+   width: 78px;
+   height: 30px;
+   top: 73px;
+   left: 997px;
+ }
+ #absolute-wrapper .icon.icon-comments {
+   color: #5bec09;
+   font-size: 21px;
+   height: 21px;
+   width: 31px;
+   position: absolute;
+   top: 80px;
+   left: 933px;
+ }
+ #absolute-wrapper .paragraph.paragraph-1 {
+   height: 24px;
+ }
+ #absolute-wrapper .paragraph {
+   position: absolute;
+ }
+ #absolute-wrapper .paragraph.paragraph-2 {
+   width: 39px;
+   top: 80px;
+   left: 964px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3 {
+   width: 300px;
+   height: 22px;
+   top: 83px;
+   left: 253px;
+ }
+ #absolute-wrapper .dom-link.dom-link-2 {
+   width: 53px;
+   top: 83px;
+   left: 834px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse {
+   width: 962px;
+   height: 42px;
+   position: absolute;
+   top: 105px;
+   left: 114px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .navbar-inner {
+   background: #f66403;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   -o-box-shadow: none;
+   box-shadow: none;
+   border: 1px solid #f66403;
+   height: 42px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a.a-1 {
+   text-shadow: 0px 1px 2px #2b2a2a;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a {
+   color: #f3dbcf;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a.a-2 {
+   text-shadow: 0px 1px 2px #2b2a2a, 0px -1px 0px rgba(43, 42, 42, 0.239216);
+ }
+ #absolute-wrapper .paragraph.paragraph-1.paragraph-4 {
+   width: 65px;
+   top: 84px;
+   left: 786px;
+ }
+ #absolute-wrapper .icon.icon-cog {
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   font-size: 27px;
+   height: 28px;
+   width: 27px;
+   position: absolute;
+   top: 114px;
+   left: 1037px;
+ }
+ #absolute-wrapper .icon.icon-user {
+   color: #f3dbcf;
+   font-size: 26px;
+   text-shadow: 0px 1px 2px #000000;
+   height: 26px;
+   width: 32px;
+   position: absolute;
+   top: 115px;
+   left: 935px;
+ }
+ #absolute-wrapper .icon.icon-info-sign {
+   font-size: 25px;
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   height: 25px;
+   width: 28px;
+   position: absolute;
+   top: 115px;
+   left: 1005px;
+ }
+ #absolute-wrapper .icon.icon-envelope-alt {
+   font-size: 21px;
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   height: 21px;
+   width: 38px;
+   position: absolute;
+   top: 117px;
+   left: 964px;
+ }
+ #absolute-wrapper .icon.icon-home {
+   color: #f3dbcf;
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 120px;
+   left: 118px;
+ }
+ #absolute-wrapper select.select-2 {
+   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.701961);
+   width: 139px;
+   height: 32px;
+   top: 153px;
+   left: 567px;
+ }
+ #absolute-wrapper .icon.icon-search {
+   font-size: 27px;
+   color: #050505;
+   height: 28px;
+   width: 27px;
+   position: absolute;
+   top: 153px;
+   left: 1045px;
+ }
+ #absolute-wrapper textarea {
+   width: 314.18181824684143px;
+   height: 22.18181824684143px;
+   position: absolute;
+   top: 154px;
+   left: 714px;
+ }
+ #absolute-wrapper .well {
+   width: 446.18181824684143px;
+   height: 399.18181824684143px;
+   position: absolute;
+   top: 234px;
+   left: 100px;
+ }
+ #absolute-wrapper .image.image-2 {
+   width: 459px;
+   height: 417px;
+   top: 248px;
+ }

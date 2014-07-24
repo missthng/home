@@ -1,0 +1,443 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ #page-wrapper {
+   position: relative;
+   width: 1200px;
+   /* centers the document */
+   margin: 0 auto;
+   /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+   overflow: hidden;
+   height: 1300px;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ /* Set floating dom-heading margins to 0 */
+ [class*="dom-heading"] {
+   margin: 0;
+ }
+ /* Set floating body text margins to 0 */
+ [class*="dom-paragraph"] p {
+   margin: 0 0 10px 0;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 1200px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .well {
+   position: absolute;
+ }
+ #absolute-wrapper .well.well-1 {
+   -moz-box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   -webkit-box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   -o-box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+ }
+ #absolute-wrapper .well.well-2 {
+   left: 114px;
+ }
+ #absolute-wrapper .well.well-3 {
+   width: 58.18181824684143px;
+   height: 40.18181824684143px;
+ }
+ #absolute-wrapper .well.well-4 {
+   left: 113px;
+ }
+ #absolute-wrapper .well.well-5 {
+   background: #e2e2e2;
+   width: 1090.1818182468414px;
+   height: 1138.1818182468414px;
+   top: 41px;
+   left: 32px;
+ }
+ #absolute-wrapper .icon.icon-remove {
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 50px;
+   left: 1134px;
+ }
+ #absolute-wrapper .paragraph.paragraph-1 {
+   height: 22px;
+ }
+ #absolute-wrapper .paragraph {
+   position: absolute;
+ }
+ #absolute-wrapper .paragraph.paragraph-2 {
+   top: 113px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3 {
+   height: 42px;
+ }
+ #absolute-wrapper .paragraph.paragraph-4 {
+   width: 300px;
+ }
+ #absolute-wrapper .paragraph.paragraph-5 {
+   width: 205px;
+   left: 293px;
+ }
+ #absolute-wrapper .paragraph.paragraph-1.paragraph-2.paragraph-5 p {
+   color: #da9763;
+ }
+ #absolute-wrapper .paragraph.paragraph-2.paragraph-6 {
+   width: 84px;
+   height: 23px;
+   left: 115px;
+ }
+ #absolute-wrapper .paragraph.paragraph-7 {
+   width: 132px;
+   height: 21px;
+   top: 114px;
+   left: 941px;
+ }
+ #absolute-wrapper .paragraph.paragraph-7 p {
+   color: #f56e05;
+   font-weight: bold;
+ }
+ #absolute-wrapper .icon.icon-ok-circle {
+   font-size: 19px;
+   color: #f10a0a;
+   height: 19px;
+   width: 23px;
+   position: absolute;
+   top: 116px;
+   left: 197px;
+ }
+ #absolute-wrapper .well.well-1.well-2 {
+   width: 919.1818182468414px;
+   height: 20.18181824684143px;
+   top: 146px;
+ }
+ #absolute-wrapper .dom-heading.dom-heading-1 {
+   height: 42px;
+ }
+ #absolute-wrapper .dom-heading {
+   font-size: 28.18181800842285px;
+   position: absolute;
+ }
+ #absolute-wrapper .dom-heading.dom-heading-2 {
+   font-family: Arial;
+ }
+ #absolute-wrapper .dom-heading.dom-heading-3 {
+   font-family: federo;
+   font-weight: 100;
+   width: 146px;
+   top: 156px;
+   left: 121px;
+ }
+ #absolute-wrapper .btn.btn-1 {
+   height: 33px;
+ }
+ #absolute-wrapper .btn {
+   position: absolute;
+ }
+ #absolute-wrapper .btn.btn-2 {
+   top: 160px;
+ }
+ #absolute-wrapper .btn.btn-3 {
+   top: 218px;
+ }
+ #absolute-wrapper .btn.btn-4 {
+   width: 132px;
+   left: 780px;
+ }
+ #absolute-wrapper .btn-1.btn-2.btn-5 {
+   width: 135px;
+   left: 640px;
+ }
+ #absolute-wrapper .btn-warning {
+   background: #fbb450;
+   background-image: -moz-linear-gradient(270deg, #fbb450 0%, #f89406 100%);
+   background-image: -webkit-linear-gradient(270deg, #fbb450 0%, #f89406 100%);
+   background-image: -o-linear-gradient(270deg, #fbb450 0%, #f89406 100%);
+   background-image: linear-gradient(180deg, #fbb450 0%, #f89406 100%);
+   width: 100px;
+   height: 30px;
+   top: 163px;
+   left: 367px;
+ }
+ #absolute-wrapper .icon.icon-comments {
+   position: absolute;
+ }
+ #absolute-wrapper .icon.icon-comments.icon-comments-1 {
+   font-size: 28px;
+   color: #40e906;
+   height: 28px;
+   width: 41px;
+   top: 163px;
+   left: 929px;
+ }
+ #absolute-wrapper textarea {
+   width: 62.18181824684143px;
+   height: 19.18181824684143px;
+   position: absolute;
+   top: 164px;
+   left: 279px;
+ }
+ #absolute-wrapper .dom-link {
+   height: 25px;
+   position: absolute;
+ }
+ #absolute-wrapper .dom-link.dom-link-1 {
+   left: 262px;
+ }
+ #absolute-wrapper .dom-link.dom-link-2 {
+   width: 84px;
+   top: 165px;
+   left: 969px;
+ }
+ #absolute-wrapper .checkbox {
+   width: 59px;
+   height: 20px;
+   position: absolute;
+   top: 167px;
+   left: 485px;
+ }
+ #absolute-wrapper .btn-1.btn-3.btn-6 {
+   width: 112px;
+   left: 961px;
+ }
+ #absolute-wrapper .btn-1.btn-3.btn-7 {
+   color: #1e75f7;
+   width: 84px;
+   left: 866px;
+ }
+ #absolute-wrapper .btn-1.btn-3.btn-7 .icon.icon-thumbs-up {
+   font-size: 20px;
+   height: 20px;
+   width: 23px;
+ }
+ #absolute-wrapper .dom-heading.dom-heading-1.dom-heading-2 {
+   width: 535px;
+   top: 222px;
+   left: 114px;
+ }
+ #absolute-wrapper .nav {
+   width: 406px;
+   height: 41.090909123420715px;
+   position: absolute;
+   top: 272px;
+   left: 533px;
+ }
+ #absolute-wrapper .nav .active.divider a {
+   background: #c1bebe;
+   border-right: 1px solid rgba(0, 0, 0, 0);
+   border-left: 1px solid rgba(0, 0, 0, 0);
+ }
+ #absolute-wrapper .nav li a.a-1 {
+   background: #f1f0ed;
+ }
+ #absolute-wrapper .nav li a.a-2 {
+   background-image: -moz-linear-gradient(270deg, #f1f0ed 0%, #808080 100%);
+   background-image: -webkit-linear-gradient(270deg, #f1f0ed 0%, #808080 100%);
+   background-image: -o-linear-gradient(270deg, #f1f0ed 0%, #808080 100%);
+   background-image: linear-gradient(180deg, #f1f0ed 0%, #808080 100%);
+ }
+ #absolute-wrapper .nav li .a-1.a-3 {
+   border: 1px solid rgba(241, 240, 237, 0);
+ }
+ #absolute-wrapper .well.well-3.well-4.well-6 {
+   top: 274px;
+ }
+ #absolute-wrapper .image {
+   position: absolute;
+ }
+ #absolute-wrapper .image.image-1 {
+   width: 79px;
+   height: 65px;
+ }
+ #absolute-wrapper .image.image-2 {
+   left: 123px;
+ }
+ #absolute-wrapper .image.image-3 {
+   -moz-box-shadow: 0px 1px 2px 0px #000000;
+   -webkit-box-shadow: 0px 1px 2px 0px #000000;
+   -o-box-shadow: 0px 1px 2px 0px #000000;
+   box-shadow: 0px 1px 2px 0px #000000;
+   width: 291px;
+   height: 396px;
+   top: 276px;
+   left: 227px;
+   background: transparent url(../images/1958026-651882191538406-711393676-n.jpg) top left no-repeat;
+   background-size: 100% 100%;
+ }
+ #absolute-wrapper .image.image-3 .icon.icon-zoom-in {
+   font-size: 26px;
+   height: 26px;
+   width: 27px;
+   position: absolute;
+   top: 9px;
+   left: 254px;
+ }
+ #absolute-wrapper .image.image-1.image-2.image-4 {
+   top: 282px;
+ }
+ #absolute-wrapper .dom-paragraph {
+   overflow: hidden;
+   width: 26px;
+   height: 25px;
+   position: absolute;
+   top: 308px;
+   left: -22px;
+ }
+ #absolute-wrapper .dom-paragraph p {
+   font-family:"Arial";
+   line-height: 1.5;
+ }
+ #absolute-wrapper .paragraph.paragraph-3.paragraph-8 {
+   width: 435px;
+   top: 321px;
+   left: 534px;
+ }
+ #absolute-wrapper .well.well-3.well-7 {
+   top: 363px;
+   left: 112px;
+ }
+ #absolute-wrapper .image.image-1.image-5 {
+   top: 371px;
+   left: 122px;
+ }
+ #absolute-wrapper .well.well-3.well-4.well-8 {
+   top: 451px;
+ }
+ #absolute-wrapper .image.image-1.image-2.image-6 {
+   top: 459px;
+ }
+ #absolute-wrapper .well.well-2.well-3 {
+   top: 538px;
+ }
+ #absolute-wrapper .image.image-1.image-7 {
+   top: 546px;
+   left: 124px;
+ }
+ #absolute-wrapper .image.image-8 {
+   width: 91px;
+   height: 28px;
+   top: 636px;
+   left: 118px;
+ }
+ #absolute-wrapper .icon.icon-twitter-sign {
+   font-size: 26px;
+   color: #0795ec;
+   height: 26px;
+   width: 28px;
+   position: absolute;
+   top: 689px;
+   left: 355px;
+ }
+ #absolute-wrapper .icon.icon-facebook-sign {
+   font-size: 27px;
+   color: #1059ee;
+   height: 27px;
+   width: 27px;
+   position: absolute;
+   top: 689px;
+   left: 323px;
+ }
+ #absolute-wrapper .icon.icon-linkedin {
+   font-size: 27px;
+   height: 27px;
+   width: 38px;
+   position: absolute;
+   top: 687px;
+   left: 382px;
+ }
+ #absolute-wrapper .paragraph.paragraph-1.paragraph-4 {
+   top: 760px;
+   left: 232px;
+ }
+ #absolute-wrapper .paragraph.paragraph-1.paragraph-4 p.p-1 {
+   font-weight: bold;
+ }
+ #absolute-wrapper .dom-link.dom-link-1.dom-link-3 {
+   width: 191px;
+   top: 809px;
+ }
+ #absolute-wrapper .dom-link.dom-link-1.dom-link-4 {
+   width: 76px;
+   top: 786px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3.paragraph-9 {
+   width: 484px;
+   top: 787px;
+   left: 340px;
+ }
+ #absolute-wrapper .icon.icon-comments.icon-comments-2 {
+   font-size: 17px;
+   color: #42e50b;
+   height: 18px;
+   width: 17px;
+   top: 788px;
+   left: 235px;
+ }
+ #absolute-wrapper .paragraph.paragraph-10 {
+   width: 486px;
+   height: 20px;
+   top: 810px;
+   left: 435px;
+ }
+ #absolute-wrapper .icon.icon-envelope-alt {
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 812px;
+   left: 237px;
+ }
+ #absolute-wrapper .dom-link.dom-link-1.dom-link-5 {
+   width: 240px;
+   top: 834px;
+ }
+ #absolute-wrapper .icon.icon-pencil {
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 838px;
+   left: 237px;
+ }
+ #absolute-wrapper .well.well-1.well-9 {
+   width: 629.1818182468414px;
+   height: 44.18181824684143px;
+   top: 870px;
+   left: 225px;
+ }
+ #absolute-wrapper .btn.btn-8 {
+   width: 85px;
+   height: 32px;
+   top: 973px;
+   left: 811px;
+ }
+ #absolute-wrapper .dom-heading.dom-heading-2.dom-heading-4 {
+   color: #5d09f0;
+   width: 25px;
+   height: 155px;
+   top: 1020px;
+   left: 229px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3.paragraph-4.paragraph-11 {
+   top: 1031px;
+   left: 260px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3.paragraph-4.paragraph-12 {
+   top: 1067px;
+   left: 264px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3.paragraph-4.paragraph-13 {
+   top: 1108px;
+   left: 262px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3.paragraph-4.paragraph-14 {
+   top: 1149px;
+   left: 261px;
+ }

@@ -1,0 +1,420 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ #page-wrapper {
+   position: relative;
+   width: 1200px;
+   /* centers the document */
+   margin: 0 auto;
+   /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+   overflow: hidden;
+   height: 1000px;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ /* Set floating dom-heading margins to 0 */
+ [class*="dom-heading"] {
+   margin: 0;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 1200px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .dom-link {
+   height: 25px;
+   position: absolute;
+ }
+ #absolute-wrapper .dom-link.dom-link-1 {
+   width: 100px;
+ }
+ #absolute-wrapper .dom-link.dom-link-2 {
+   top: 558px;
+ }
+ #absolute-wrapper .dom-link.dom-link-3 {
+   color: #f70934;
+   width: 329px;
+   top: 11px;
+   left: 746px;
+ }
+ #absolute-wrapper .icon.icon-plus {
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 15px;
+   left: 730px;
+ }
+ #absolute-wrapper .image {
+   width: 133px;
+   height: 77px;
+   position: absolute;
+   top: 30px;
+   left: 116px;
+ }
+ #absolute-wrapper .dom-heading {
+   color: #f5350a;
+   font-family: Arial;
+   width: 300px;
+   height: 43px;
+   font-size: 28.18181800842285px;
+   position: absolute;
+   top: 53px;
+   left: 253px;
+ }
+ #absolute-wrapper .paragraph.paragraph-1 {
+   height: 24px;
+ }
+ #absolute-wrapper .paragraph {
+   position: absolute;
+ }
+ #absolute-wrapper .paragraph.paragraph-2 {
+   width: 300px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3 {
+   height: 30px;
+ }
+ #absolute-wrapper .paragraph.paragraph-4 {
+   height: 25px;
+ }
+ #absolute-wrapper .paragraph.paragraph-5 {
+   height: 42px;
+ }
+ #absolute-wrapper .paragraph.paragraph-6 {
+   width: 39px;
+   top: 83px;
+   left: 966px;
+ }
+ #absolute-wrapper select {
+   position: absolute;
+ }
+ #absolute-wrapper select.select-1 {
+   width: 78px;
+   height: 30px;
+   top: 76px;
+   left: 999px;
+ }
+ #absolute-wrapper .icon.icon-comments {
+   color: #5bec09;
+   font-size: 21px;
+   height: 21px;
+   width: 31px;
+   position: absolute;
+   top: 83px;
+   left: 935px;
+ }
+ #absolute-wrapper .dom-link.dom-link-4 {
+   width: 53px;
+   top: 86px;
+   left: 836px;
+ }
+ #absolute-wrapper .paragraph.paragraph-2.paragraph-7 {
+   height: 22px;
+   top: 86px;
+   left: 255px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse {
+   width: 962px;
+   height: 42px;
+   position: absolute;
+   top: 108px;
+   left: 116px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .navbar-inner {
+   background: #f66403;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   -o-box-shadow: none;
+   box-shadow: none;
+   border: 1px solid #f66403;
+   height: 42px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a.a-1 {
+   text-shadow: 0px 1px 2px #2b2a2a;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a {
+   color: #f3dbcf;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a.a-2 {
+   text-shadow: 0px 1px 2px #2b2a2a, 0px -1px 0px rgba(43, 42, 42, 0.239216);
+ }
+ #absolute-wrapper .paragraph.paragraph-1.paragraph-8 {
+   width: 65px;
+   top: 87px;
+   left: 788px;
+ }
+ #absolute-wrapper .icon.icon-cog {
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   font-size: 27px;
+   height: 28px;
+   width: 27px;
+   position: absolute;
+   top: 117px;
+   left: 1039px;
+ }
+ #absolute-wrapper .icon.icon-user {
+   color: #f3dbcf;
+   font-size: 26px;
+   text-shadow: 0px 1px 2px #000000;
+   height: 26px;
+   width: 32px;
+   position: absolute;
+   top: 118px;
+   left: 937px;
+ }
+ #absolute-wrapper .icon.icon-info-sign {
+   font-size: 25px;
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   height: 25px;
+   width: 28px;
+   position: absolute;
+   top: 118px;
+   left: 1007px;
+ }
+ #absolute-wrapper .icon.icon-envelope-alt {
+   font-size: 21px;
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   height: 21px;
+   width: 38px;
+   position: absolute;
+   top: 120px;
+   left: 966px;
+ }
+ #absolute-wrapper .icon.icon-home {
+   color: #f3dbcf;
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 123px;
+   left: 120px;
+ }
+ #absolute-wrapper .icon.icon-search {
+   font-size: 27px;
+   color: #050505;
+   height: 28px;
+   width: 27px;
+   position: absolute;
+   top: 156px;
+   left: 1047px;
+ }
+ #absolute-wrapper select.select-2 {
+   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.701961);
+   width: 139px;
+   height: 32px;
+   top: 156px;
+   left: 569px;
+ }
+ #absolute-wrapper textarea {
+   width: 314.18181824684143px;
+   height: 22.18181824684143px;
+   position: absolute;
+   top: 157px;
+   left: 716px;
+ }
+ #absolute-wrapper .dom-link.dom-link-5 {
+   color: #0741eb;
+   width: 66px;
+   top: 160px;
+   left: 121px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3.paragraph-9 {
+   width: 12px;
+   top: 162px;
+   left: 189px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3.paragraph-10 {
+   width: 72px;
+   top: 161px;
+   left: 200px;
+ }
+ #absolute-wrapper .alert {
+   -moz-box-shadow: 0px 1px 2px 0px #000000;
+   -webkit-box-shadow: 0px 1px 2px 0px #000000;
+   -o-box-shadow: 0px 1px 2px 0px #000000;
+   box-shadow: 0px 1px 2px 0px #000000;
+   width: 220.18181824684143px;
+   height: 22.18181824684143px;
+   position: absolute;
+   top: 211px;
+   left: 116px;
+ }
+ #absolute-wrapper .paragraph.paragraph-4.paragraph-11 {
+   width: 70px;
+   top: 219px;
+   left: 402px;
+ }
+ #absolute-wrapper .paragraph.paragraph-4.paragraph-11 p {
+   color: #7e03f4;
+   font-weight: bold;
+ }
+ #absolute-wrapper .dom-link.dom-link-6 {
+   width: 37px;
+   top: 220px;
+   left: 326px;
+ }
+ #absolute-wrapper .dom-link.dom-link-7 {
+   width: 152px;
+   top: 291px;
+   left: 155px;
+ }
+ #absolute-wrapper .paragraph.paragraph-4.paragraph-12 {
+   width: 396px;
+   top: 280px;
+   left: 120px;
+ }
+ #absolute-wrapper .well {
+   position: absolute;
+ }
+ #absolute-wrapper .well.well-1 {
+   background: #f66403;
+   -moz-box-shadow: 0px 1px 2px 0px #000000, 0px 1px 2px 0px #000000, 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   -webkit-box-shadow: 0px 1px 2px 0px #000000, 0px 1px 2px 0px #000000, 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   -o-box-shadow: 0px 1px 2px 0px #000000, 0px 1px 2px 0px #000000, 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   box-shadow: 0px 1px 2px 0px #000000, 0px 1px 2px 0px #000000, 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   width: 186.18181824684143px;
+   height: 328.18181824684143px;
+   top: 314px;
+   left: 910px;
+ }
+ #absolute-wrapper .nav.nav-1 {
+   position: absolute;
+ }
+ #absolute-wrapper .nav.nav-2 {
+   width: 136px;
+   height: 182px;
+   top: 332px;
+   left: 937px;
+ }
+ #absolute-wrapper .nav.nav-1.nav-2 li a.a-3 {
+   -moz-box-shadow: 0px 1px 2px 0px #000000;
+   -webkit-box-shadow: 0px 1px 2px 0px #000000;
+   -o-box-shadow: 0px 1px 2px 0px #000000;
+   box-shadow: 0px 1px 2px 0px #000000;
+ }
+ #absolute-wrapper .nav.nav-1.nav-2 li a {
+   text-shadow: 0px 1px 2px #000000, 0px 1px 0px rgba(255, 255, 255, 0.498039);
+ }
+ #absolute-wrapper .nav.nav-1.nav-2 li a.a-4 {
+   color: #fafcfd;
+ }
+ #absolute-wrapper .nav.nav-1.nav-2 li .a-3.a-5 {
+   color: #fdfeff;
+ }
+ #absolute-wrapper .nav.nav-1.nav-2 li .a-3.a-6 {
+   color: #f9fcfd;
+ }
+ #absolute-wrapper .nav.nav-1.nav-2 li .a-3.a-7 {
+   color: #fafbfc;
+ }
+ #absolute-wrapper .nav.nav-1.nav-2 li .a-3.a-8 {
+   color: #fcfdfd;
+ }
+ #absolute-wrapper .nav.nav-1.nav-2 li .a-3.a-9 {
+   color: #f4f7f9;
+ }
+ #absolute-wrapper .nav.nav-1.nav-2 li a.a-10 {
+   color: #f6f9fa;
+ }
+ #absolute-wrapper .well.well-2 {
+   -moz-box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   -webkit-box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   -o-box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   width: 400.18181824684143px;
+   height: 270.18181824684143px;
+   top: 334px;
+   left: 351px;
+ }
+ #absolute-wrapper .heading {
+   width: 300px;
+   height: 42px;
+   position: absolute;
+   top: 358px;
+   left: 376px;
+ }
+ #absolute-wrapper .paragraph.paragraph-5.paragraph-13 {
+   width: 99px;
+   top: 422px;
+   left: 378px;
+ }
+ #absolute-wrapper .paragraph.paragraph-14 {
+   width: 189px;
+   height: 27px;
+   top: 434px;
+   left: 580px;
+ }
+ #absolute-wrapper .btn.btn-1 {
+   width: 141px;
+   left: 577px;
+ }
+ #absolute-wrapper .btn.btn-2 {
+   height: 30px;
+   position: absolute;
+ }
+ #absolute-wrapper .btn.btn-3 {
+   top: 468px;
+ }
+ #absolute-wrapper .btn-1.btn-2.btn-4 {
+   top: 510px;
+ }
+ #absolute-wrapper .btn-2.btn-5 {
+   width: 80px;
+   top: 511px;
+   left: 376px;
+ }
+ #absolute-wrapper .dom-link.dom-link-1.dom-link-8 {
+   text-shadow: 0px 1px 2px #000000;
+   color: #f9fbfc;
+   top: 512px;
+   left: 951px;
+ }
+ #absolute-wrapper .paragraph.paragraph-2.paragraph-5 {
+   top: 558px;
+   left: 372px;
+ }
+ #absolute-wrapper .paragraph.paragraph-5.paragraph-15 {
+   width: 195px;
+   top: 557px;
+   left: 576px;
+ }
+ #absolute-wrapper .dom-link.dom-link-2.dom-link-9 {
+   width: 45px;
+   left: 494px;
+ }
+ #absolute-wrapper .dom-link.dom-link-1.dom-link-2 {
+   left: 679px;
+ }
+ #absolute-wrapper .nav.nav-1.nav-3 {
+   width: 176px;
+   height: 112px;
+   top: 565px;
+   left: 950px;
+ }
+ #absolute-wrapper .nav.nav-1.nav-3 li a.a-11 {
+   color: #fcfaf9;
+ }
+ #absolute-wrapper .nav.nav-1.nav-3 .active.divider a {
+   background: #f66403;
+   background-image: -moz-linear-gradient(270deg, #f66403 100%, #808080 100%);
+   background-image: -webkit-linear-gradient(270deg, #f66403 100%, #808080 100%);
+   background-image: -o-linear-gradient(270deg, #f66403 100%, #808080 100%);
+   background-image: linear-gradient(180deg, #f66403 100%, #808080 100%);
+   color: #f7f5f3;
+ }
+ #absolute-wrapper .nav.nav-1.nav-3 li a.a-12 {
+   color: #faf8f6;
+ }

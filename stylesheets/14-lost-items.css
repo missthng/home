@@ -1,0 +1,403 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ #page-wrapper {
+   position: relative;
+   width: 1200px;
+   /* centers the document */
+   margin: 0 auto;
+   /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+   overflow: hidden;
+   height: 1000px;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ /* Set floating dom-heading margins to 0 */
+ [class*="dom-heading"] {
+   margin: 0;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 1200px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .image {
+   width: 133px;
+   height: 77px;
+   position: absolute;
+   top: 19px;
+   left: 123px;
+ }
+ #absolute-wrapper .dom-heading {
+   color: #f5350a;
+   font-family: Arial;
+   width: 300px;
+   height: 43px;
+   font-size: 28.18181800842285px;
+   position: absolute;
+   top: 42px;
+   left: 260px;
+ }
+ #absolute-wrapper .paragraph.paragraph-1 {
+   height: 24px;
+ }
+ #absolute-wrapper .paragraph {
+   position: absolute;
+ }
+ #absolute-wrapper .paragraph.paragraph-2 {
+   height: 42px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3 {
+   top: 150px;
+ }
+ #absolute-wrapper .paragraph.paragraph-4 {
+   height: 25px;
+ }
+ #absolute-wrapper .paragraph.paragraph-5 {
+   width: 211px;
+ }
+ #absolute-wrapper .paragraph.paragraph-6 {
+   width: 304px;
+   height: 23px;
+ }
+ #absolute-wrapper .paragraph.paragraph-7 {
+   width: 145px;
+   height: 21px;
+ }
+ #absolute-wrapper .paragraph.paragraph-8 {
+   height: 27px;
+ }
+ #absolute-wrapper .paragraph.paragraph-9 {
+   left: 393px;
+ }
+ #absolute-wrapper .paragraph.paragraph-10 {
+   width: 39px;
+   top: 72px;
+   left: 973px;
+ }
+ #absolute-wrapper select {
+   position: absolute;
+ }
+ #absolute-wrapper select.select-1 {
+   width: 78px;
+   height: 30px;
+   top: 65px;
+   left: 1006px;
+ }
+ #absolute-wrapper .icon.icon-comments {
+   color: #5bec09;
+   font-size: 21px;
+   height: 21px;
+   width: 31px;
+   position: absolute;
+   top: 72px;
+   left: 942px;
+ }
+ #absolute-wrapper .paragraph.paragraph-11 {
+   width: 300px;
+   height: 22px;
+   top: 75px;
+   left: 262px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse {
+   width: 962px;
+   height: 42px;
+   position: absolute;
+   top: 97px;
+   left: 123px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .navbar-inner {
+   background: #f66403;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   -o-box-shadow: none;
+   box-shadow: none;
+   border: 1px solid #f66403;
+   height: 42px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a.a-1 {
+   text-shadow: 0px 1px 2px #2b2a2a;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a {
+   color: #f3dbcf;
+ }
+ #absolute-wrapper .navbar.navbar-inverse .nav li a.a-2 {
+   text-shadow: 0px 1px 2px #2b2a2a, 0px -1px 0px rgba(43, 42, 42, 0.239216);
+ }
+ #absolute-wrapper .paragraph.paragraph-1.paragraph-12 {
+   width: 65px;
+   top: 76px;
+   left: 795px;
+ }
+ #absolute-wrapper .dom-link.dom-link-1 {
+   height: 25px;
+ }
+ #absolute-wrapper .dom-link {
+   position: absolute;
+ }
+ #absolute-wrapper .dom-link.dom-link-2 {
+   width: 100px;
+ }
+ #absolute-wrapper .dom-link.dom-link-3 {
+   height: 16px;
+ }
+ #absolute-wrapper .dom-link.dom-link-4 {
+   width: 53px;
+   top: 75px;
+   left: 843px;
+ }
+ #absolute-wrapper .icon.icon-cog {
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   font-size: 27px;
+   height: 28px;
+   width: 27px;
+   position: absolute;
+   top: 106px;
+   left: 1046px;
+ }
+ #absolute-wrapper .icon.icon-user {
+   color: #f3dbcf;
+   font-size: 26px;
+   text-shadow: 0px 1px 2px #000000;
+   height: 26px;
+   width: 32px;
+   position: absolute;
+   top: 107px;
+   left: 944px;
+ }
+ #absolute-wrapper .icon.icon-info-sign {
+   font-size: 25px;
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   height: 25px;
+   width: 28px;
+   position: absolute;
+   top: 107px;
+   left: 1014px;
+ }
+ #absolute-wrapper .icon.icon-envelope-alt {
+   font-size: 21px;
+   color: #f3dbcf;
+   text-shadow: 0px 1px 2px #000000;
+   height: 21px;
+   width: 38px;
+   position: absolute;
+   top: 109px;
+   left: 973px;
+ }
+ #absolute-wrapper .icon.icon-home {
+   color: #f3dbcf;
+   font-size: 14px;
+   height: 14px;
+   width: 14px;
+   position: absolute;
+   top: 112px;
+   left: 127px;
+ }
+ #absolute-wrapper .icon.icon-search {
+   font-size: 27px;
+   color: #050505;
+   height: 28px;
+   width: 27px;
+   position: absolute;
+   top: 145px;
+   left: 1054px;
+ }
+ #absolute-wrapper select.select-2 {
+   text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.701961);
+   width: 139px;
+   height: 32px;
+   top: 145px;
+   left: 576px;
+ }
+ #absolute-wrapper textarea {
+   width: 314.18181824684143px;
+   height: 22.18181824684143px;
+   position: absolute;
+   top: 146px;
+   left: 723px;
+ }
+ #absolute-wrapper .dom-link.dom-link-1.dom-link-5 {
+   width: 39px;
+   top: 149px;
+   left: 128px;
+ }
+ #absolute-wrapper .dom-link.dom-link-1.dom-link-2.dom-link-6 {
+   top: 150px;
+   left: 177px;
+ }
+ #absolute-wrapper .paragraph.paragraph-2.paragraph-3.paragraph-13 {
+   width: 78px;
+   left: 167px;
+ }
+ #absolute-wrapper .paragraph.paragraph-3.paragraph-4 {
+   width: 75px;
+   left: 257px;
+ }
+ #absolute-wrapper .paragraph.paragraph-2.paragraph-3.paragraph-14 {
+   width: 12px;
+   left: 245px;
+ }
+ #absolute-wrapper .icon.icon-trash {
+   font-size: 21px;
+   height: 21px;
+   width: 25px;
+   position: absolute;
+   top: 186px;
+   left: 369px;
+ }
+ #absolute-wrapper .well {
+   -moz-box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   -webkit-box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   -o-box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   box-shadow: 0px 1px 2px 0px #000000, inset 0px 1px 1px 0px rgba(0, 0, 0, 0.0470588);
+   position: absolute;
+ }
+ #absolute-wrapper .well.well-1 {
+   left: 369px;
+ }
+ #absolute-wrapper .well.well-2 {
+   width: 159.18181824684143px;
+   height: 305.18181824684143px;
+   top: 217px;
+   left: 127px;
+ }
+ #absolute-wrapper .well.well-1.well-3 {
+   width: 673.1818182468414px;
+   height: 95.18181824684143px;
+   top: 220px;
+ }
+ #absolute-wrapper .nav.nav-1 {
+   position: absolute;
+ }
+ #absolute-wrapper .nav.nav-2 {
+   width: 131px;
+   height: 185px;
+   top: 227px;
+   left: 133px;
+ }
+ #absolute-wrapper .dom-link.dom-link-3.dom-link-7 {
+   width: 337px;
+   top: 243px;
+   left: 395px;
+ }
+ #absolute-wrapper .paragraph.paragraph-4.paragraph-5.paragraph-15 {
+   top: 244px;
+   left: 854px;
+ }
+ #absolute-wrapper .checkbox {
+   width: 0px;
+   height: 20px;
+   position: absolute;
+ }
+ #absolute-wrapper .checkbox.checkbox-1 {
+   top: 244px;
+   left: 378px;
+ }
+ #absolute-wrapper .paragraph.paragraph-6.paragraph-16 {
+   top: 272px;
+   left: 397px;
+ }
+ #absolute-wrapper .paragraph.paragraph-6.paragraph-16 p {
+   color: #8d7676;
+ }
+ #absolute-wrapper .paragraph.paragraph-17 {
+   width: 110px;
+   height: 26px;
+   top: 302px;
+   left: 947px;
+ }
+ #absolute-wrapper .paragraph.paragraph-17 p {
+   color: #f94d06;
+   font-weight: bold;
+ }
+ #absolute-wrapper .paragraph.paragraph-7.paragraph-18 {
+   top: 309px;
+   left: 399px;
+ }
+ #absolute-wrapper .well.well-1.well-4 {
+   width: 671.1818182468414px;
+   height: 101.18181824684143px;
+   top: 371px;
+ }
+ #absolute-wrapper .dom-link.dom-link-1.dom-link-8 {
+   width: 144px;
+   top: 355px;
+   left: 826px;
+ }
+ #absolute-wrapper .paragraph.paragraph-8.paragraph-19 {
+   width: 106px;
+   top: 375px;
+   left: 164px;
+ }
+ #absolute-wrapper .paragraph.paragraph-4.paragraph-5.paragraph-20 {
+   top: 396px;
+   left: 860px;
+ }
+ #absolute-wrapper .dom-link.dom-link-3.dom-link-9 {
+   width: 336px;
+   top: 398px;
+   left: 393px;
+ }
+ #absolute-wrapper .checkbox.checkbox-2 {
+   top: 399px;
+   left: 377px;
+ }
+ #absolute-wrapper .dom-link.dom-link-1.dom-link-2.dom-link-10 {
+   top: 415px;
+   left: 146px;
+ }
+ #absolute-wrapper .paragraph.paragraph-8.paragraph-21 {
+   width: 156px;
+   top: 428px;
+   left: 902px;
+ }
+ #absolute-wrapper .paragraph.paragraph-8.paragraph-21 p {
+   color: #f94d06;
+   font-weight: bold;
+ }
+ #absolute-wrapper .paragraph.paragraph-6.paragraph-9 {
+   top: 430px;
+ }
+ #absolute-wrapper .paragraph.paragraph-6.paragraph-9 p {
+   color: #8d7676;
+ }
+ #absolute-wrapper .nav.nav-1.nav-3 {
+   width: 171px;
+   height: 112px;
+   top: 450px;
+   left: 142px;
+ }
+ #absolute-wrapper .nav.nav-1.nav-3 li a.a-3 {
+   color: #f68031;
+ }
+ #absolute-wrapper .nav.nav-1.nav-3 .divider a {
+   background: #f5f5f5;
+   color: #f37e09;
+ }
+ #absolute-wrapper .btn {
+   width: 119px;
+   height: 30px;
+   position: absolute;
+   top: 455px;
+   left: 919px;
+ }
+ #absolute-wrapper .paragraph.paragraph-7.paragraph-9 {
+   top: 467px;
+ }
+ #absolute-wrapper .paragraph.paragraph-2.paragraph-22 {
+   width: 270px;
+   top: 469px;
+   left: 548px;
+ }
