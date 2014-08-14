@@ -1,3 +1,6 @@
+<?php
+require_once 'functions/function.php';
+?>
 <!DOCTYPE HTML>
 <html lang="en">
   
@@ -76,38 +79,9 @@
 
         <select name="" class="select-1 select-5">
           <option value="CATEGORIES">CATEGORIES</option>
-          <option value="Antiques &amp; Collectables">Antiques &amp; Collectables</option>
-          <option value="Art">Art</option>
-          <option value="Baby Gear">Baby Gear</option>
-          <option value="Books">Books</option>
-          <option value="Building &amp; Renovation">Building &amp; Renovation</option>
-          <option value="Business &amp; Industry">Business &amp; Industry</option>
-          <option value="Cars, Bikes &amp; Boats">Cars, Bikes &amp; Boats</option>
-          <option value="Clothing">Clothing</option>
-          <option value="Computers">Computers</option>
-          <option value="Crafts">Crafts</option>
-          <option value="Electronics &amp; Photography">Electronics &amp; Photography</option>
-          <option value="Farming">Farming</option>
-          <option value="Flatmates Wanted">Flatmates Wanted</option>
-          <option value="Gaming">Gaming</option>
-          <option value="Health &amp; Beauty">Health &amp; Beauty</option>
-          <option value="Home &amp; Living">Home &amp; Living</option>
-          <option value="Jewellery &amp; Watches">Jewellery &amp; Watches</option>
-          <option value="Jobs">Jobs</option>
-          <option value="Mobile Phones">Mobile Phones</option>
-          <option value="Movies &amp; TV">Movies &amp; TV</option>
-          <option value="Music &amp; Instruments">Music &amp; Instruments</option>
-          <option value="Pets &amp; Animals">Pets &amp; Animals</option>
-          <option value="Pottery &amp; Glass">Pottery &amp; Glass</option>
-          <option value="Real Estate">Real Estate</option>
-          <option value="Services">Services</option>
-          <option value="Sports">Sports</option>
-          <option value="Toys &amp; Models">Toys &amp; Models</option>
-          <option value="Travel, Events &amp; Activities">Travel, Events &amp; Activities</option>
-          <option value="Stores">Stores</option>
-          <option value="$1 Reserve">$1 Reserve</option>
-          <option value="Closing Soon">Closing Soon</option>
-          <option value="Hot Listings">Hot Listings</option>
+          <?php
+          loopCategory();
+          ?>
         </select>
 <i class="icon icon-search"></i>
 

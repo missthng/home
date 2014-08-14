@@ -40,23 +40,23 @@
           <div class="navbar-inner">
             <ul class="nav">
               <li>
-                <a href="#" class="a-1"><strong>Create a listing</strong>
+                  <a href="sellitem.php" class="a-1"><strong>Create a listing</strong>
                 </a>
               </li>
               <li>
-                <a href="#" class="a-2"><strong>Item's I'm Selling</strong>
+                  <a href="myauctions.php" class="a-2"><strong>Item's I'm Selling</strong>
                 </a>
               </li>
               <li>
-                <a href="#" class="a-1"><strong>My Trader</strong>
+                  <a href="mytrader.php" class="a-1"><strong>My Trader</strong>
                 </a>
               </li>
               <li>
-                <a href="#" class="a-1"><strong>Saved List</strong>
+                  <a href="lostitems.php" class="a-1"><strong>Items I Lost</strong>
                 </a>
               </li>
               <li>
-                <a href="#" class="a-1"><strong>Items I Won</strong>
+                  <a href="feedback.php" class="a-1"><strong>Feedback</strong>
                 </a>
               </li>
             </ul>
